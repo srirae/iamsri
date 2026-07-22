@@ -25,7 +25,7 @@ const transition: Transition = {
  * Designed by ncdai on Figma with [Fast Isometric Plugin](https://www.figma.com/community/plugin/1249759048471403961).
  * Inspired by tailwindcss.com.
  */
-export function ChanhDaiMarkIsometric() {
+export function ChanhDaiMarkIsometric({ className }: { className?: string }) {
   const id = useId()
   const ids = {
     facePattern: `ncdai-face-pattern-${id}`,
@@ -80,7 +80,7 @@ export function ChanhDaiMarkIsometric() {
   return (
     <motion.svg
       ref={ref}
-      className="h-auto w-full touch-manipulation overflow-visible [--pattern:color-mix(in_oklab,var(--foreground)_12%,var(--background))] [--stroke:color-mix(in_oklab,var(--foreground)_16%,var(--background))]"
+      className={`h-auto w-full touch-manipulation overflow-visible [--pattern:color-mix(in_oklab,var(--foreground)_12%,var(--background))] [--stroke:color-mix(in_oklab,var(--foreground)_16%,var(--background))] ${className || ""}`}
       viewBox="0 0 556 354"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

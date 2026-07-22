@@ -1,0 +1,143 @@
+{
+  "_comment": "This is the single config file for your portfolio. Edit freely. The app auto-reads this on every build/restart.",
+
+  "personal": {
+    "displayName": "Sri Vamsi Rajesh",
+    "username": "srirae",
+    "gender": "male",
+    "pronouns": "he/him",
+    "bio": "Building tools 🛠️ for myself",
+    "jobTitle": "Student",
+    "address": "Newark, NJ",
+    "timezone": "America/New_York",
+    "email": "srivamsirajesh@gmail.com",
+    "website": "https://iamsri.vercel.app",
+    "avatar": "/img/avatar.jpg",
+    "ogImage": "https://iamsri.vercel.app/og-image.png",
+    "dateCreated": "2023-10-20",
+    "keywords": [
+      "Sri Vamsi Rajesh",
+      "srirae",
+      "portfolio",
+      "NJIT",
+      "computer science",
+      "developer",
+      "open source"
+    ]
+  },
+
+  "flipSentences": [
+    "Building tools 🛠️ for myself",
+    "Learning infra dev ⚙️",
+    "Contributing to open source 🌐",
+    "Undergraduate Researcher 🔬"
+  ],
+
+  "social": {
+    "github": {
+      "title": "GitHub",
+      "handle": "srirae",
+      "href": "https://github.com/srirae",
+      "sameAs": true
+    },
+    "linkedin": {
+      "title": "LinkedIn",
+      "handle": "srivamsirajesh",
+      "href": "https://www.linkedin.com/in/srivamsirajesh/",
+      "sameAs": true
+    },
+    "discord": {
+      "title": "Discord",
+      "handle": "srirae",
+      "href": "https://discord.com/users/srirae",
+      "sameAs": false
+    }
+  },
+
+  "navigation": [
+    { "title": "Experience", "href": "/#experiences" },
+    { "title": "Projects",   "href": "/#projects" },
+    { "title": "Resume",     "href": "/resume" },
+    { "title": "Shelf",      "href": "/shelf" }
+  ],
+
+  "jobs": [
+    {
+      "title": "CS Student",
+      "company": "NJIT",
+      "website": "https://www.njit.edu",
+      "experienceId": "njit"
+    },
+    {
+      "title": "Undergraduate Researcher",
+      "company": "iXR Lab & SPUR Lab",
+      "website": ["https://link1.com", "https://link2.com"],
+      "experienceId": "ixr-spur-lab"
+    }
+  ],
+
+  "about": "I'm Sri Vamsi Rajesh — a CS student at New Jersey Institute of Technology passionate about platform engineering and developer tools. Currently learning Go 🐹💙.\n\nIn my free time, I contribute to open-source software and build projects ranging from IPC frameworks to custom APIs.\n\nAlways exploring low-level systems, infrastructure development, and efficient toolmaking.",
+
+  "site": {
+    "url": "https://iamsri.vercel.app",
+    "githubRepo": "srirae/portfolio",
+    "githubUrl": "https://github.com/srirae/portfolio"
+  },
+
+  "projects": [
+    {
+      "slug": "my-first-project",
+      "title": "My First Project",
+      "description": "A brief description of what this project does.",
+      "tags": ["Open Source", "TypeScript", "Next.js"],
+      "github": "https://github.com/srirae/my-first-project",
+      "demo": "https://my-first-project.vercel.app",
+      "date": "2024-01-01",
+      "category": "apps",
+      "pinned": true
+    }
+  ],
+
+  "projectCategories": [
+    { "id": "apis", "label": "APIs", "description": "Services & endpoints powering products" },
+    { "id": "infra", "label": "Infrastructure", "description": "DevOps, CI/CD, and system architecture" },
+    { "id": "tools", "label": "Tools", "description": "CLI tools, scripts, and developer utilities" },
+    { "id": "apps", "label": "Apps", "description": "Full-stack applications and UIs" }
+  ],
+
+  "experiences": [
+    {
+      "id": "shadcncraft",
+      "companyName": "NJIT",
+      "companyLogo": "https://assets.chanhdai.com/images/companies/shadcncraft.svg",
+      "companyWebsite": "https://shadcncraft.com",
+      "location": "Melbourne, Australia",
+      "locationType": "Remote",
+      "isCurrentEmployer": true,
+      "positions": [
+        {
+          "id": "1",
+          "title": "Design Engineer",
+          "employmentPeriod": { "start": "01.2026" },
+          "employmentType": "Full-time",
+          "icon": "CodeXmlIcon",
+          "description": "- Design and build Pro components/blocks, from Figma to production-ready React.",
+          "skills": ["TypeScript", "Next.js", "Tailwind CSS"],
+          "isExpanded": true
+        }
+      ]
+    }
+  ],
+
+  "education": [
+    {
+      "id": "njit",
+      "school": "New Jersey Institute of Technology",
+      "degree": "Bachelor's degree",
+      "fieldOfStudy": "Computer Science",
+      "period": { "start": "08.2023", "end": "05.2027" },
+      "description": "- Studying Computer Science.\n- Undergraduate Researcher at iXR Lab & SPUR Lab.",
+      "skills": ["C++", "Java", "Python", "Algorithms", "Data Structures"]
+    }
+  ]
+}

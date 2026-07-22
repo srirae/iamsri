@@ -33,7 +33,7 @@ export function Overview() {
               key={index}
               title={job.title}
               company={job.company}
-              website={job.website}
+              website={Array.isArray(job.website) ? job.website[0] : job.website}
               experienceId={job.experienceId}
             />
           )
