@@ -272,8 +272,8 @@
       "registryDependencies": [
         "collapsible",
         "separator",
-        "https://chanhdai.com/r/chevrons-up-down-icon.json",
-        "https://chanhdai.com/r/typography.json"
+        "https://acme.com/r/chevrons-up-down-icon.json",
+        "https://acme.com/r/typography.json"
       ],
       "files": [
         {
@@ -318,7 +318,7 @@
         "motion"
       ],
       "registryDependencies": [
-        "https://chanhdai.com/r/shimmering-text.json"
+        "https://acme.com/r/shimmering-text.json"
       ],
       "files": [
         {
@@ -340,7 +340,7 @@
       "description": "Scrolling marquee to showcase user testimonials.",
       "registryDependencies": [
         "@kibo-ui/marquee",
-        "https://chanhdai.com/r/testimonial.json"
+        "https://acme.com/r/testimonial.json"
       ],
       "docs": "https://chanhdai.com/components/testimonials-marquee",
       "categories": [
@@ -517,7 +517,7 @@
       ],
       "registryDependencies": [
         "button",
-        "https://chanhdai.com/r/icon-swap.json"
+        "https://acme.com/r/icon-swap.json"
       ],
       "files": [
         {
@@ -548,8 +548,8 @@
         "jotai"
       ],
       "registryDependencies": [
-        "https://chanhdai.com/r/icon-swap.json",
-        "https://chanhdai.com/r/copy-button.json"
+        "https://acme.com/r/icon-swap.json",
+        "https://acme.com/r/copy-button.json"
       ],
       "files": [
         {
@@ -589,7 +589,7 @@
       "title": "Testimonial Spotlight",
       "description": "Testimonial card with spotlight effect on hover.",
       "registryDependencies": [
-        "https://chanhdai.com/r/testimonial.json"
+        "https://acme.com/r/testimonial.json"
       ],
       "files": [
         {
@@ -682,7 +682,7 @@
         "motion"
       ],
       "registryDependencies": [
-        "https://chanhdai.com/r/use-controllable-state.json"
+        "https://acme.com/r/use-controllable-state.json"
       ],
       "files": [
         {
@@ -729,7 +729,7 @@
       "registryDependencies": [
         "tooltip",
         "spinner",
-        "https://chanhdai.com/r/contribution-graph.json"
+        "https://acme.com/r/contribution-graph.json"
       ],
       "files": [
         {
@@ -1058,7 +1058,7 @@
       "description": "A hero section with a golden spiral background.",
       "registryDependencies": [
         "button",
-        "https://chanhdai.com/r/style.json"
+        "https://acme.com/r/style.json"
       ],
       "files": [
         {
@@ -1121,7 +1121,7 @@
       ],
       "registryDependencies": [
         "button",
-        "https://chanhdai.com/r/style.json"
+        "https://acme.com/r/style.json"
       ],
       "files": [
         {
@@ -1150,7 +1150,7 @@
       "description": "A testimonials section with dual marquees.",
       "registryDependencies": [
         "https://www.kibo-ui.com/r/marquee.json",
-        "https://chanhdai.com/r/testimonial-spotlight.json"
+        "https://acme.com/r/testimonial-spotlight.json"
       ],
       "files": [
         {
@@ -1180,8 +1180,8 @@
       "description": "A testimonials section with a lined layout.",
       "registryDependencies": [
         "https://www.kibo-ui.com/r/marquee.json",
-        "https://chanhdai.com/r/style.json",
-        "https://chanhdai.com/r/testimonial.json"
+        "https://acme.com/r/style.json",
+        "https://acme.com/r/testimonial.json"
       ],
       "files": [
         {
@@ -1210,8 +1210,8 @@
       "title": "Experience 01",
       "description": "A work experience section with a lined layout.",
       "registryDependencies": [
-        "https://chanhdai.com/r/style.json",
-        "https://chanhdai.com/r/work-experience.json"
+        "https://acme.com/r/style.json",
+        "https://acme.com/r/work-experience.json"
       ],
       "files": [
         {
@@ -1234,7 +1234,7 @@
       "title": "Team 01",
       "description": "A team section with glowing cards.",
       "registryDependencies": [
-        "https://chanhdai.com/r/glow-card-grid.json"
+        "https://acme.com/r/glow-card-grid.json"
       ],
       "files": [
         {
@@ -1262,7 +1262,7 @@
       ],
       "registryDependencies": [
         "@bklit/line-chart",
-        "https://chanhdai.com/r/style.json"
+        "https://acme.com/r/style.json"
       ],
       "files": [
         {
@@ -1291,7 +1291,7 @@
       "title": "Social Links 01",
       "description": "A social links section with a lined grid layout.",
       "registryDependencies": [
-        "https://chanhdai.com/r/style.json"
+        "https://acme.com/r/style.json"
       ],
       "files": [
         {
@@ -1315,7 +1315,7 @@
       "title": "Social Proof 01",
       "description": "A social proof section with a logos carousel.",
       "registryDependencies": [
-        "https://chanhdai.com/r/logos-carousel.json"
+        "https://acme.com/r/logos-carousel.json"
       ],
       "files": [
         {
