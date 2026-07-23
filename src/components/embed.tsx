@@ -1,6 +1,6 @@
 import { cn } from "@/lib/utils"
 
-import { ImageZoom } from "./kibo-ui/image-zoom"
+import { ImageZoom } from "@/components/image-zoom"
 
 export function YouTubeEmbed({
   videoId,

@@ -1,19 +1,11 @@
 import dynamic from "next/dynamic"
-import Link from "next/link"
 
 import { MAIN_NAV } from "@/config/site"
 import { Separator } from "@/components/base/ui/separator"
-import { ChanhDaiMark } from "@/components/chanhdai-mark"
 import { NavDesktop } from "@/components/nav-desktop"
-import { NavItemGitHub } from "@/components/nav-item-github"
 import { ThemeToggle } from "@/components/theme-toggle"
-import blocks from "@/registry/__blocks__.json"
 import { getAllDocs } from "@/features/doc/data/documents"
 import type { DocPreview } from "@/features/doc/types/document"
-
-const BrandContextMenu = dynamic(
-  () => import("@/components/brand-context-menu")
-)
 
 const CommandMenu = dynamic(() => import("@/components/command-menu"))
 
@@ -40,7 +32,7 @@ export function SiteHeader() {
             orientation="vertical"
             className="mr-2 max-sm:hidden data-vertical:h-5 data-vertical:self-center"
           />
-          <CommandMenu docs={docPreviews} blocks={blocks} enabledHotkeys />
+          <CommandMenu docs={docPreviews} enabledHotkeys />
           <Separator
             orientation="vertical"
             className="mx-2 data-vertical:h-5 data-vertical:self-center"

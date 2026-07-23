@@ -120,7 +120,7 @@ export function BlogClient({ allPosts }: BlogClientProps) {
           variant="secondary"
           size="sm"
           nativeButton={false}
-          render={<Link href="/blog" />}
+          render={<Link href="/projects" />}
         >
           All projects
           <ArrowRightIcon />

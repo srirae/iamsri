@@ -1,30 +1,23 @@
 {
-  "name": "chanhdai.com",
+  "name": "iamsri",
   "version": "0.1.0",
-  "description": "A pixel-perfect dev portfolio and shadcn registry.",
-  "homepage": "https://chanhdai.com",
+  "description": "Personal developer portfolio.",
+  "homepage": "https://iamsri.vercel.app",
   "license": "MIT",
   "author": {
-    "name": "Nguyen Chanh Dai",
-    "email": "dai@chanhdai.com",
-    "url": "https://github.com/ncdai"
+    "name": "Sri Vamsi Rajesh",
+    "email": "srivamsirajesh@gmail.com",
+    "url": "https://github.com/srirae"
   },
-  "contributors": [
-    {
-      "name": "Nguyen Chanh Dai",
-      "email": "dai@chanhdai.com",
-      "url": "https://github.com/ncdai"
-    }
-  ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ncdai/chanhdai.com.git"
+    "url": "git+https://github.com/srirae/portfolio.git"
   },
   "scripts": {
     "dev": "next dev",
-    "build": "pnpm registry:build && next build",
+    "build": "next build",
     "start": "next start",
-    "preview": "pnpm registry:build && next build && next start",
+    "preview": "next build && next start",
     "test": "vitest",
     "test:run": "vitest run",
     "lint": "eslint . --cache --cache-location .eslintcache",
@@ -32,13 +25,6 @@
     "check-types": "tsc --noEmit --pretty",
     "format:check": "prettier --check \"**/*.{ts,tsx,md,mdx}\" --cache",
     "format:write": "prettier --write \"**/*.{ts,tsx,md,mdx}\" --cache",
-    "registry:build": "bun run ./src/scripts/build-registry.mts && shadcn build",
-    "registry:validate": "shadcn registry validate ./public/r/registry.json",
-    "capture": "bun run ./src/scripts/capture.mts",
-    "capture:sync": "bun run ./src/scripts/capture-sync.mts",
-    "icons:dev": "bun run ./src/scripts/build-icons.ts --watch",
-    "icons:build": "bun run ./src/scripts/build-icons.ts",
-    "generate-libphonenumber-metadata": "libphonenumber-metadata-generator ./src/assets/libphonenumber.metadata.json --countries VN --extended",
     "upgrade:next": "npx @next/codemod@latest upgrade latest",
     "upgrade:tailwind": "npx @tailwindcss/upgrade@latest",
     "prepare": "husky"
