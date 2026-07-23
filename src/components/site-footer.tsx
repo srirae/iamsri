@@ -1,8 +1,4 @@
-import { LICENSE, SOURCE_CODE_GITHUB_URL } from "@/config/site"
 import { cn } from "@/lib/utils"
-import { DmcaIcon, GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons"
-import { SiteFooterInteractiveLogotype } from "@/components/site-footer-brand"
-import { SOCIAL } from "@/features/portfolio/data/social-links"
 
 export function SiteFooter() {
   return (
@@ -19,16 +15,7 @@ export function SiteFooter() {
         </span>
       </div>
 
-      <div className="h-(--fade-bottom-height)" />
       <div className="pb-[env(safe-area-inset-bottom,0)]" />
     </footer>
   )
-}
-
-function Separator({ className, ...props }: React.ComponentProps<"div">) {
-  return <div className={cn("flex h-11 w-px bg-line", className)} {...props} />
-}
-
-function Item({ className, ...props }: React.ComponentProps<"div">) {
-  return <div className={cn("grid grid-cols-2 gap-4", className)} {...props} />
 }
